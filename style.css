@@ -1,0 +1,199 @@
+@import 'utilities.css';
+:root{
+    --primary:rgb(212, 199, 23);
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --TERMARY:#898989;
+    --LIGHT:#F2F2F2;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+header{
+    background: var(--dark);
+    
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
+  
+    top: 0;
+    z-index: 1000;
+    
+}
+.container{
+    max-width: 1300px;
+    padding: 0 15px;
+    margin:0 auto;
+}
+header nav .left a{
+    color: var(--pure);
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.hero{
+    min-height: 35vh;
+    align-items: center;
+    min-height: 40vh;}
+header nav .left a:hover{
+    color: var(--primary);
+}
+header nav{
+    padding: 2rem 0
+    ;
+}
+header nav .branding{
+    margin-right: 3rem;
+}
+.hero .left img{
+    width: 470px;
+}
+.hero .right{
+    color: var(--pure);
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+}
+.hero .right h1{
+    font-size: 3rem;
+    font-weight: 50;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+.hero .right h1 span{
+    color: burlywood;
+}
+.hero .right p{
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.codinglogoclass{
+    width: 60px;
+}
+.hi{
+    width: 320px;
+}
+.section{
+    padding:6rem 0;
+}
+.about img{
+    margin-left: 80px;
+    margin-top: 50px;
+    padding-bottom: 70px;
+    padding-top: 0rem;
+}
+section.about h1{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+section.about h1 span{
+    color: rgb(112, 112, 214);
+}
+section.about h3{
+    font-weight: 300;
+}
+section.about p{
+    font-family: playwrite cuba guides;
+    color:rgb(81, 77, 77)
+}
+section.about .social{
+    display: flex;
+}
+section.freelancer{
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/codingback.png);
+    color: var(--pure);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
+    
+}
+.freelancer h1{
+    font-size: 2rem;
+    font-weight: 30;
+    line-height: 5;
+    margin-bottom: 0rem;
+    font-family:'poppins', sans-serif;
+}
+.freelancer p{
+    font-size: 1rem;
+    font-weight: 20;
+    line-height: 1;
+    margin-bottom: 5rem;
+    font-family:playwrite cuba guides ;
+}
+.freelancer button{
+    font-size: 1rem;
+    font-weight: 10;
+    line-height: 2;
+    margin-bottom: 7rem;
+}
+.work h1 span{
+    color: var(--primary);
+}
+section.work .container{
+   
+    text-align: center;
+}
+section.work{
+    background-color:lavenderblush;
+}
+section.work .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+section.work{
+    text-align: center;
+    
+     clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
+    
+}
+section.contact h1 span{
+    color: var(--primary);
+}
+section.contact .container{
+    text-align: center;
+    margin-top: 2%;
+}
+section.contact .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.contact h1{
+    padding-bottom: 5%;
+}
+section.contact .card-wrapper .card img{
+    margin-bottom: 0.1rem;
+
+}
+section.contact .card-wrapper .card h1{
+    font-weight: 400;
+    margin-top: 0.1rem;
+    
+    
+}
+section.contact .card-wrapper .card h6{
+   font-size: 1rem;
+   color: var(--TERMARY);
+    
+}
+footer{
+    background: var(--dark);
+    text-align: center;
+    padding: 2rem 0;
+}
+footer .copyright{
+    color: var(--TERMARY);
+}
